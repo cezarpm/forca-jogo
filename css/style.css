@@ -1,0 +1,37 @@
+h1{
+    color: blue;
+}
+
+.linha{
+    margin: 2px;
+}
+.lista-items {
+    
+}
+
+.item {
+    vertical-align: middle;
+    margin: 5px;
+    font-size: 2em;
+    display: inline-block;
+    list-style: none;
+    width: 38px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.box-input {
+    vertical-align: middle;
+}
+
+#main-input {
+    vertical-align: middle;
+}
+
+.box-input button {
+    margin-left: 5px;
+}
+
+.meio {
+    text-align: center;
+}
