@@ -10,26 +10,32 @@
 </head>
 
 <body>
-    <div class="container">
+    <main>
+        <div class="container">
 
-        <div class="meio">
-            <h1>Jogo Da Forca</h1>
+            <div class="meio">
+                <h1>Jogo Da Forca</h1>
+    
+                <p>Bem-vindo ao jogo da forca</p>
+    
+                <div class="box-input">
+                    <input type="text" placeholder="Digite seu chute" id="main-input" maxlength="1">
+                    <button id="main-btn" class="btn btn-primary">Fazer chute</button>
+                </div>
+    
+                <p class="palavra-forca">GATA</p>
 
-            <p>Bem-vindo ao jogo da forca</p>
-
-            <div class="box-input">
-                <input type="text" placeholder="Digite seu chute" id="main-input" maxlength="1">
-                <button id="main-btn" class="btn btn-primary">Fazer chute</button>
+                <div id="forca-img">
+                    <img id="img-forca" class="" src="img/img0.png" alt="imagem0">
+                </div>
+                <div class="div-imagem-box">
+                </div>
             </div>
-
-            <p class="palavra-forca">GATO</p>
-
-            <div class="div-imagem-box">    
-            </div>
-        </div>
+    </main>
 </body>
 <script src="js/jquery.js"></script>
 <script src="js/index.js"></script>
+<script src="js/vida.js"></script>     
 <script src="js/bootstrap.js"></script>
 
 

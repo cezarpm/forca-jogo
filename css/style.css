@@ -29,9 +29,33 @@ h1{
 }
 
 .box-input button {
-    margin-left: 5px;
+    margin-left: 5px;   
 }
 
 .meio {
     text-align: center;
+}
+
+.img1{
+    background-image: url(../img/img1.png)
+}
+
+.img2{
+    background-image: url(../img/img2.png)
+}
+
+.img3{
+    background-image: url(../img/img3.png)
+}
+
+.img4{
+    background-image: url(../img/img4.png)
+}
+
+.img5{
+    background-image: url(../img/img5.png)
+}
+
+.img6{
+    background-image: url(../img/img6.png)
 }
